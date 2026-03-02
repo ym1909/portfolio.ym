@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Yasmin Machado</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+
+        header {
+            background-color: #1e293b;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #94a3b8;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #1e293b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background-color: #334155;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #38bdf8;
+            color: #ffff;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0ea5e9;
+        }
+
+        .galeria {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .galeria img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e293b;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Yasmin Machado Flores</h1>
+    <p>Estudante de Tecnologia | Desenvolvimento | Designer Gráfico</p>
+</header>
+
+<section>
+
+    <h2>Sobre Mim</h2>
+    <div class="card">
+        <p>
+            Formada no Técnico em Informática integrado ao Ensino Médio pela EEEM Profª Maria Rocha.  
+            Atualmente graduanda em Ciência da Computação pela Universidade Franciscana,
+            com interesse em desenvolvimento, design e estratégias digitais.
+            Busco unir conhecimento técnico com visão estratégica de marketing.
+        </p>
+    </div>
+
+    <h2>Projetos</h2>
+
+    <div class="card">
+        <h3>Emprega as Gurias</h3>
+        <p>Site voltado para divulgação de vagas destinadas a mulheres e microempresas administradas por elas.</p>
+    </div>
+
+    <div class="card">
+        <h3>Aculture-se</h3>
+        <p>Projeto de TCC voltado à promoção cultural e divulgação de eventos na região de Santa Maria.</p>
+    </div>
+
+    <div class="card">
+        <h3>Sistema de Chamados</h3>
+        <p>Projeto em desenvolvimento para gerenciamento interno de demandas em empresa de TI.</p>
+    </div>
+
+    <div class="card">
+        <h3>Designer Gráfico</h3>
+        <p>Criação de marcas e posicionamento visual para redes sociais, sites e projetos digitais.</p>
+
+        <!-- BOTÃO -->
+        <a href="https://drive.google.com/drive/folders/10hTwj9DOQz3W8PSk4wW_um4qWzbKkc_m" target="_blank" class="btn">
+            Ver Portfólio de Designs
+        </a>
+    </div>
+
+    <h2>Galeria de Trabalhos</h2>
+
+    <div class="galeria">
+        <img src="portfolio/imagem1.png" alt="Cards comemorativos">
+        <img src="portfolio/imagem2.png" alt="Logotipo">
+  
+    </div>
+
+    <h2>Contato</h2>
+    <div class="card">
+        <p>Email: yasminplaneja1909@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/ymzo1909" target="_blank">github.com/ymzo1909</a></p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 - Portfólio desenvolvido com GitHub Pages
+</footer>
+
+</body>
+</html>
